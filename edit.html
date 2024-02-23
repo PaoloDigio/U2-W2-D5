@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,27 +29,33 @@
                 <h1 class="text-white">Edit Profile</h1>
                 <hr />
                 <div class="d-flex w-95">
-                    <div class="avatar w-25">
+                    <div class="avatar w-25 position-relative">
                         <img src="assets/img/avatar.png" alt="avatar" />
+                        <div class="pen">
+                            <i class="fa-solid fa-pen"></i>
+                        </div>
                     </div>
                     <div class="user w-75">
                         <div>
                             <button class="btn-user">Strive Student</button>
                         </div>
                         <h6>Language:</h6>
-                        <button
-                            class="btn btn-genres dropdown-toggle"
-                            type="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            English
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Italian</a></li>
-                            <li><a class="dropdown-item" href="#">German</a></li>
-                            <li><a class="dropdown-item" href="#">French</a></li>
-                        </ul>
+                        <div class="dropwdown">
+                            <button
+                                class="btn btn-genres dropdown-toggle"
+                                type="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                English
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Italian</a></li>
+                                <li><a class="dropdown-item" href="#">German</a></li>
+                                <li><a class="dropdown-item" href="#">French</a></li>
+                            </ul>
+                        </div>
+
                         <hr />
                         <h6>Maturity Settings:</h6>
                         <div>
@@ -63,12 +69,12 @@
                         </div>
                         <hr />
                         <h6>Autoplay controls</h6>
-                        <div>
-                            <i class="fa-regular fa-square-check"></i>
+                        <div class="mb-1">
+                            <span class="checkbox"><i class="fa-solid fa-check"></i></span>
                             <span class="sm-text text-light"> Autoplay next episode in a series on all devices. </span>
                         </div>
                         <div>
-                            <i class="fa-regular fa-square-check"></i>
+                            <span class="checkbox"><i class="fa-solid fa-check"></i></span>
                             <span class="sm-text text-light"> Autoplay previews while browsing on all devices. </span>
                         </div>
                     </div>

@@ -1,6 +1,5 @@
 body {
   background-color: #141414;
-  color: #a7acb1;
 }
 
 header nav .img-logo {
@@ -87,16 +86,26 @@ footer * i {
 .container-edit {
   max-width: 600px;
 }
-
-.avatar img {
+.container-edit .avatar img {
   width: 100px;
 }
-
-.w-95 {
+.container-edit .pen {
+  position: absolute;
+  top: 9em;
+  left: 3px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: #141414;
+  padding: 5px;
+  font-size: 0.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.container-edit .w-95 {
   width: 95%;
 }
-
-.btn-user {
+.container-edit .btn-user {
   background-color: #666666;
   width: 95%;
   padding: 0.3rem 0.6rem;
@@ -105,8 +114,7 @@ footer * i {
   margin-bottom: 1.3rem;
   text-align: start;
 }
-
-.btn-maturity {
+.container-edit .btn-maturity {
   background-color: #333333;
   padding: 0.2rem 0.4rem;
   font-size: 0.8rem;
@@ -115,18 +123,20 @@ footer * i {
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
-
-.sm-text {
+.container-edit .sm-text {
   font-size: 0.8rem;
 }
-
-.btn-save {
+.container-edit .btn-save {
   background-color: white;
   color: black;
   font-weight: bold;
 }
-.btn-save:hover {
+.container-edit .btn-save:hover {
   background-color: #6c757d;
+}
+.container-edit .checkbox {
+  border: 1px solid #a7acb1;
+  padding: 0px 3px;
 }
 
 /*# sourceMappingURL=style.css.map */
