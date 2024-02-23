@@ -2,14 +2,24 @@ body {
   background-color: #141414;
 }
 
+.dropdown-menu.show {
+  background-color: #141414;
+}
+
+header nav ul {
+  align-items: center;
+}
 header nav .img-logo {
   width: 100px;
 }
 header nav .dropdown-toggle::after {
   margin-left: 0.2rem;
 }
-header .img-user {
-  width: 30px;
+header nav .dropdown-menu.show {
+  left: -6em;
+}
+header li img {
+  width: 35px;
 }
 header .menu-grid div {
   cursor: pointer;
@@ -24,6 +34,14 @@ header .menu-grid div:hover {
 }
 header .menu-grid div:hover i {
   color: white;
+}
+
+main * img {
+  cursor: pointer;
+  transition: 0.4s;
+}
+main * img:hover {
+  transform: scale(1.2);
 }
 
 .btn-genres {
