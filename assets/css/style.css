@@ -1,0 +1,132 @@
+body {
+  background-color: #141414;
+  color: #a7acb1;
+}
+
+header nav .img-logo {
+  width: 100px;
+}
+header nav .dropdown-toggle::after {
+  margin-left: 0.2rem;
+}
+header .img-user {
+  width: 30px;
+}
+header .menu-grid div {
+  cursor: pointer;
+  border: 2px solid #6c757d;
+  transition: 0.3s ease-in-out;
+}
+header .menu-grid div i {
+  transition: 0.3s ease-in-out;
+}
+header .menu-grid div:hover {
+  border: 2px solid white;
+}
+header .menu-grid div:hover i {
+  color: white;
+}
+
+.btn-genres {
+  background-color: black;
+  border-radius: 0;
+  border: 1px solid white;
+  padding: 0.2rem 0.5rem;
+  color: white;
+}
+.btn-genres:hover {
+  border: 1px solid lightgray;
+  background-color: transparent;
+}
+
+.dropdown-toggle::after {
+  margin-left: 1.5rem;
+}
+
+footer .container {
+  padding-inline: 5rem;
+  padding-top: 4rem;
+}
+
+footer * a,
+footer * p {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.7rem;
+  transition: 0.3s ease-in-out;
+}
+footer * a:hover,
+footer * p:hover {
+  cursor: pointer;
+  color: white;
+}
+
+footer * i {
+  font-size: 1.3rem;
+  margin-right: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn-my-dark {
+  border: 1px solid #6c757d;
+  color: #6c757d;
+  padding: 0.5rem 1.4rem;
+  background-color: #141414;
+  transition: 0.3s ease-in-out;
+}
+.btn-my-dark:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-footer {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.container-edit {
+  max-width: 600px;
+}
+
+.avatar img {
+  width: 100px;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.btn-user {
+  background-color: #666666;
+  width: 95%;
+  padding: 0.3rem 0.6rem;
+  color: white;
+  border: none;
+  margin-bottom: 1.3rem;
+  text-align: start;
+}
+
+.btn-maturity {
+  background-color: #333333;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.8rem;
+  color: white;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.sm-text {
+  font-size: 0.8rem;
+}
+
+.btn-save {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+.btn-save:hover {
+  background-color: #6c757d;
+}
+
+/*# sourceMappingURL=style.css.map */
